@@ -17,6 +17,6 @@ microservice:
       endpoint:
         uri: http://localhost:8080/tokenizer/1/tokenmessage
   stargate:
-    endopints:
+    endpoints:
       endpoint:
         uri: http://localhost:8080/stargate/1/creditmessage
