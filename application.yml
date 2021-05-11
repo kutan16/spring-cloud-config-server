@@ -12,7 +12,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ADDCARD-SERVICE/addcard/add
-  tokenizer:
+  addcard-service:
     endpoints:
       endpoint:
         uri: http://localhost:8080/tokenizer/1/tokenmessage
