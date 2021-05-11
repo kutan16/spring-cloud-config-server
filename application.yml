@@ -8,14 +8,6 @@ eureka:
     hostname: localhost
     
 microservice:
-  payment-service:
-    endpoints:
-      endpoint:
-        uri: http://PAYMENT-SERVICE/payment-provider/paynow/
-  post-service:
-    endpoints:
-      endpoint:
-        uri: http://POST-SERVICE/post-service/postdata
   addcard-service:
     endpoints:
       endpoint:
@@ -24,3 +16,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://localhost:8080/tokenizer/1/tokenmessage
+  stargate:
+    endopints:
+      endpoint:
+        uri: http://localhost:8080/stargate/1/creditmessage
