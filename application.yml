@@ -12,6 +12,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ADDCARD-SERVICE/addcard/add
+  wallet-gateway:
+    endpoints:
+      endpoint:
+        uri: http://WALLET-GATEWAY/stargate
   tokenizer:
     endpoints:
       endpoint:
@@ -23,5 +27,4 @@ microservice:
   sg-service:
     endpoints:
       endpoint:
-        uri: http://localhost:8080/sgservice/1/sgservice     
-        
+        uri: http://localhost:8080/sgservice/1/sgservice 
