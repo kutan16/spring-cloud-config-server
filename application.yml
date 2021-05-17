@@ -12,6 +12,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ADDCARD-SERVICE/addcard/add
+  getcard-service:
+    endpoints:
+      endpoint:
+        uri: http://GETCARD-SERVICE/getcard/get
   wallet-gateway:
     endpoints:
       endpoint:
